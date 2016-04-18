@@ -1,0 +1,7 @@
+image: daocloud/ci-golang:1.4
+
+env:
+    - DAO_TEST = "True"
+
+script:
+    - go test
